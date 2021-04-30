@@ -31,15 +31,13 @@ flowViewStyle()
 
 void
 StyleCollection::
-setNodeStyle(NodeStyle nodeStyle)
+setNodeStyle(const NodeStyle& nodeStyle)
 {
   instance()._nodeStyle = nodeStyle;
 }
 
-
-void
-StyleCollection::
-setConnectionStyle(ConnectionStyle connectionStyle)
+void StyleCollection::
+    setConnectionStyle(const ConnectionStyle& connectionStyle)
 {
   instance()._connectionStyle = connectionStyle;
 }
@@ -47,7 +45,7 @@ setConnectionStyle(ConnectionStyle connectionStyle)
 
 void
 StyleCollection::
-setFlowViewStyle(FlowViewStyle flowViewStyle)
+setFlowViewStyle(const FlowViewStyle& flowViewStyle)
 {
   instance()._flowViewStyle = flowViewStyle;
 }

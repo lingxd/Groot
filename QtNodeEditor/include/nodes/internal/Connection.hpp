@@ -124,7 +124,7 @@ public:
       return _style;
   }
 
-  void setStyle(ConnectionStyle style)
+  void setStyle(const ConnectionStyle& style)
   {
       _style = style;
   }
